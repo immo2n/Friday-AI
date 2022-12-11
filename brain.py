@@ -15,7 +15,7 @@ def ai(input):
         return check
     try :
         # Call the API key under your account (in a secure way)
-        openai.api_key = "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"
+        openai.api_key = "ADD_YOUR_OPEN_AI_API_KEY"
         response = openai.Completion.create(
         engine="text-davinci-002",
         prompt =  input,
